@@ -1,0 +1,19 @@
+.single-league{
+    color: black;
+    padding: 50px;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    
+}
+.single-league img{
+    height: 100px;
+    width: 150px;
+}
+.explore-btn{
+    height: 40px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}

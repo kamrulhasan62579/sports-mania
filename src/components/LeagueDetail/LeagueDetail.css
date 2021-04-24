@@ -1,0 +1,34 @@
+.detail-div{
+    background-color: rgb(67, 67, 199);
+    color: white;
+    /* margin: ; */
+    border-radius: 30px;
+    padding: 30px;
+    /* height: 250px; */
+    /* width: 1160px; */
+}
+.logo-style{
+   height: 200px;
+   width: 300px;
+}
+.para-detail{
+    color: white;
+}
+.detail-div .icon-img{
+   height: 20px;
+}
+
+/* .detail-div{
+    display: flex;
+} */
+.detail-container{
+    margin: 95px;
+}
+.social-icon img{
+    height: 60px;
+}
+.social-icon{
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
