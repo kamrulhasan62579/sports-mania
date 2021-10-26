@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import League from '../League/League';
+import Loading from '../Loading/Loading';
 import './Home.css'
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
                   <h1>Sports Mania</h1>
             </div>
             <div className="league-container">
-            {
+            { leagues.length === 0 ? <Loading></Loading> :
                 leagues.map(lea => <League key={lea.idLeague} league={lea}></League>)
             }
             <h1>Best Wishes For All </h1>
