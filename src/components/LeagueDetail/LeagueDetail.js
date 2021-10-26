@@ -31,17 +31,21 @@ const LeagueDetail = () => {
     }
     return (
         <div className="tournament">
-            <div className="first-width">
-                  <img className="logo-style" src={strLogo} alt=""/>
+            <div className="first-width first-width-opacity">
+                  <div style={{display: "flex", justifyContent:"center", alignItems: "center"}}>
+                      <img className="logo-style" src={strLogo} alt=""/>
+                  </div>
             </div>
             <div className="detail-container">
                <div className="detail-div">
-                   <div className="half-detail-1">
-                       <h2>{strLeague}</h2>
+                   <div style={{display: "flex", alignItems: "center", justifyContent: "center"}} className="half-detail-1">
+                       <div>
+                           <h2>{strLeague}</h2>
                         <h4> <img className="icon-img" src={found} alt=""/> Founded: {dateFirstEvent} </h4>
                         <h4><img className="icon-img" src={flag} alt=""/> Country: {strCountry} </h4>
                         <h4> <img className="icon-img" src={football} alt=""/> Sports Type: {strSport} </h4>
                         <h4> <img className="icon-img" src={gender} alt=""/> Gender: {strGender} </h4>
+                       </div>
                    </div>
                    <div className="half-detail-2">
                         {

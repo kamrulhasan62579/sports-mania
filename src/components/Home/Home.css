@@ -1,11 +1,8 @@
-.league-container{
-   margin: 100px;
-}
+
 .tournament{
     background-color: #000000;
-
 }
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 250px) {
     .league-container {
      display: grid;
      grid-template-columns: repeat(1, 1fr);
@@ -17,7 +14,6 @@
    }
    .detail-div .side-img{
     height: 290px;
-    width: 240px;
    }
    .half-detail-2{
     margin-top: 10px;
@@ -25,11 +21,17 @@
    .single-league{
     height: 210px;
    } 
+   .league-container{
+   margin: 20px;
 }
+}
+   .detail-div .side-img{
+    width: 100%;
+   }
 @media only screen and (min-width: 784px) {
      .league-container {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 20px;
     }
     .detail-div{
@@ -38,7 +40,6 @@
     }
     .detail-div .side-img{
         height: 255px;
-        width: 800px;
     }
     .half-detail-2{
         margin-left: 50px;
@@ -46,6 +47,16 @@
     .single-league{
         height: 190px;
        } 
+    .league-container{
+       margin: 100px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+     .league-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
 }
 .first-width{
     background-image: url("https://i.ibb.co/CM3pq58/A-wide-angle-of-a-outdoor-soccer-stadium-outdoor-stadium-or-arena-full-of-spectators-under-a-dramati.jpg");
@@ -56,6 +67,9 @@
     height: 300px;
     /* opacity: 0.5; */
 
+}
+.first-width-opacity{
+    opacity: 0.7;
 }
 .first-width h1{
     color:deeppink;

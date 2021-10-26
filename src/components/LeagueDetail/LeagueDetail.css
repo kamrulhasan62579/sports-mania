@@ -1,11 +1,8 @@
 .detail-div{
     background-color: rgb(67, 67, 199);
     color: white;
-    /* margin: ; */
     border-radius: 30px;
-    padding: 30px;
-    /* height: 250px; */
-    /* width: 1160px; */
+    padding: 10px;
 }
 .logo-style{
    height: 200px;
@@ -14,15 +11,14 @@
 .para-detail{
     color: white;
 }
+.para-detail{
+    text-align: justify;
+}
 .detail-div .icon-img{
    height: 20px;
 }
-
-/* .detail-div{
-    display: flex;
-} */
 .detail-container{
-    margin: 95px;
+    margin: 35px;
 }
 .social-icon img{
     height: 60px;

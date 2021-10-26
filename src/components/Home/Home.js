@@ -17,10 +17,10 @@ const Home = () => {
                   <h1>Sports Mania</h1>
             </div>
             <div className="league-container">
-            { leagues.length === 0 ? <Loading></Loading> :
+            { leagues.length === 0 ? <div> <Loading></Loading> </div>:
                 leagues.map(lea => <League key={lea.idLeague} league={lea}></League>)
             }
-            <h1>Best Wishes For All </h1>
+            <h1 style={{paddingBottom: "20px"}}>Best Wishes For All </h1>
             </div>
         </div>
     );
